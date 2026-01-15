@@ -44,8 +44,11 @@ public class Number
 
 		//A perfect number is any number equal to the sum of its divisors
 		//excluding itself.
+		//tradtitional for loop to check all numbers after one but before current value of number
 		for(int i = 1; i < number; i++)
+			// checks if the i is divisable by i
 			if(number % i == 0)
+				//adds to total if so
 				total += i;
 
 		return (number==total);
