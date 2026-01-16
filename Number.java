@@ -57,6 +57,7 @@ public class Number
 	public String toString( )
 	{
 
+		/* 
 		String returnString;
 
 		returnString = number + "\n";
@@ -64,5 +65,8 @@ public class Number
 		returnString += number + " isPerfect == " + isPerfect() + "\n\n";
 
 		return "" + returnString;
+		*/
+
+		return "" + number;
 	}
 }

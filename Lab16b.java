@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -19,7 +19,11 @@ public class Lab16b
 
 
 		//add more test cases
-
+		NumberAnalyzer test2 = new NumberAnalyzer("12 28 8 4 3 5");
+		System.out.println(test2);
+		System.out.println("odd count = "+test2.countOdds());
+		System.out.println("even count = "+test2.countEvens());
+		System.out.println("perfect count = "+test2.countPerfects()+"\n\n");
 
 	}
 }

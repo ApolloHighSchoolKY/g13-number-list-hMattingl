@@ -14,7 +14,7 @@ public class NumberTester
 		Number myNum = new Number(6);
 		System.out.println(myNum);
 
-
+		/* 
 		//add more test cases
 		Number myNum2 = new Number(12);
 		System.out.println(myNum2);
@@ -24,6 +24,7 @@ public class NumberTester
 
 		Number myNum4 = new Number(28);
 		System.out.println(myNum4);
+		*/
 
 	}
 }
